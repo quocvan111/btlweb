@@ -20,9 +20,9 @@ namespace BTLLTW_webBanQuanAo
         private string name, image;
         int category;
         int price, final_price;
-        string describe;
+        string description;
         
-        public Item(int id, string name, string image, int category, int price, int final_price, string describe)
+        public Item(int id, string name, string image, int category, int price, int final_price, string description)
         {
             this.id = id;
             this.name = name;
@@ -30,7 +30,7 @@ namespace BTLLTW_webBanQuanAo
             this.category = category;
             this.price = price;    
             this.final_price = final_price;
-            this.describe = describe;
+            this.description = description;
         }
 
         public int Id { get => id; set => id = value; }
@@ -39,6 +39,6 @@ namespace BTLLTW_webBanQuanAo
         public int Category { get => category; set => category = value; }
         public int Price { get => price; set => price = value; }
         public int Final_price { get => final_price; set => final_price = value; }
-        public string Describe { get => describe; set => describe = value; }
+        public string Description { get => description; set => description = value; }
     }
 }

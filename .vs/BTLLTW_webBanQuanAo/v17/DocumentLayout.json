@@ -3,56 +3,56 @@
   "WorkspaceRootPath": "C:\\Users\\Admin\\source\\repos\\BTLLTW_webBanQuanAo\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{17EFAF6A-86F1-4425-AD14-5AFCD5740A26}|BTLLTW_webBanQuanAo\\BTLLTW_webBanQuanAo.csproj|c:\\users\\admin\\source\\repos\\btlltw_webbanquanao\\btlltw_webbanquanao\\dssp.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17EFAF6A-86F1-4425-AD14-5AFCD5740A26}|BTLLTW_webBanQuanAo\\BTLLTW_webBanQuanAo.csproj|solutionrelative:btlltw_webbanquanao\\dssp.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17EFAF6A-86F1-4425-AD14-5AFCD5740A26}|BTLLTW_webBanQuanAo\\BTLLTW_webBanQuanAo.csproj|c:\\users\\admin\\source\\repos\\btlltw_webbanquanao\\btlltw_webbanquanao\\dssp.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{17EFAF6A-86F1-4425-AD14-5AFCD5740A26}|BTLLTW_webBanQuanAo\\BTLLTW_webBanQuanAo.csproj|solutionrelative:btlltw_webbanquanao\\dssp.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17EFAF6A-86F1-4425-AD14-5AFCD5740A26}|BTLLTW_webBanQuanAo\\BTLLTW_webBanQuanAo.csproj|C:\\Users\\Admin\\source\\repos\\BTLLTW_webBanQuanAo\\btlltw_webbanquanao\\ctsp.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{17EFAF6A-86F1-4425-AD14-5AFCD5740A26}|BTLLTW_webBanQuanAo\\BTLLTW_webBanQuanAo.csproj|solutionrelative:btlltw_webbanquanao\\ctsp.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{17EFAF6A-86F1-4425-AD14-5AFCD5740A26}|BTLLTW_webBanQuanAo\\BTLLTW_webBanQuanAo.csproj|c:\\users\\admin\\source\\repos\\btlltw_webbanquanao\\btlltw_webbanquanao\\index.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{17EFAF6A-86F1-4425-AD14-5AFCD5740A26}|BTLLTW_webBanQuanAo\\BTLLTW_webBanQuanAo.csproj|solutionrelative:btlltw_webbanquanao\\index.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{17EFAF6A-86F1-4425-AD14-5AFCD5740A26}|BTLLTW_webBanQuanAo\\BTLLTW_webBanQuanAo.csproj|C:\\Users\\Admin\\source\\repos\\BTLLTW_webBanQuanAo\\btlltw_webbanquanao\\headerfooter.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "AbsoluteMoniker": "D:0:0:{17EFAF6A-86F1-4425-AD14-5AFCD5740A26}|BTLLTW_webBanQuanAo\\BTLLTW_webBanQuanAo.csproj|c:\\users\\admin\\source\\repos\\btlltw_webbanquanao\\btlltw_webbanquanao\\headerfooter.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
       "RelativeMoniker": "D:0:0:{17EFAF6A-86F1-4425-AD14-5AFCD5740A26}|BTLLTW_webBanQuanAo\\BTLLTW_webBanQuanAo.csproj|solutionrelative:btlltw_webbanquanao\\headerfooter.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{17EFAF6A-86F1-4425-AD14-5AFCD5740A26}|BTLLTW_webBanQuanAo\\BTLLTW_webBanQuanAo.csproj|C:\\Users\\Admin\\source\\repos\\BTLLTW_webBanQuanAo\\btlltw_webbanquanao\\dssp.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{17EFAF6A-86F1-4425-AD14-5AFCD5740A26}|BTLLTW_webBanQuanAo\\BTLLTW_webBanQuanAo.csproj|solutionrelative:btlltw_webbanquanao\\dssp.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{17EFAF6A-86F1-4425-AD14-5AFCD5740A26}|BTLLTW_webBanQuanAo\\BTLLTW_webBanQuanAo.csproj|c:\\users\\admin\\source\\repos\\btlltw_webbanquanao\\btlltw_webbanquanao\\style\\stylesignin.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{17EFAF6A-86F1-4425-AD14-5AFCD5740A26}|BTLLTW_webBanQuanAo\\BTLLTW_webBanQuanAo.csproj|solutionrelative:btlltw_webbanquanao\\style\\stylesignin.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{17EFAF6A-86F1-4425-AD14-5AFCD5740A26}|BTLLTW_webBanQuanAo\\BTLLTW_webBanQuanAo.csproj|C:\\Users\\Admin\\source\\repos\\BTLLTW_webBanQuanAo\\btlltw_webbanquanao\\index.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{17EFAF6A-86F1-4425-AD14-5AFCD5740A26}|BTLLTW_webBanQuanAo\\BTLLTW_webBanQuanAo.csproj|solutionrelative:btlltw_webbanquanao\\index.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{17EFAF6A-86F1-4425-AD14-5AFCD5740A26}|BTLLTW_webBanQuanAo\\BTLLTW_webBanQuanAo.csproj|c:\\users\\admin\\source\\repos\\btlltw_webbanquanao\\btlltw_webbanquanao\\style\\stylelogin.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{17EFAF6A-86F1-4425-AD14-5AFCD5740A26}|BTLLTW_webBanQuanAo\\BTLLTW_webBanQuanAo.csproj|solutionrelative:btlltw_webbanquanao\\style\\stylelogin.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{17EFAF6A-86F1-4425-AD14-5AFCD5740A26}|BTLLTW_webBanQuanAo\\BTLLTW_webBanQuanAo.csproj|C:\\Users\\Admin\\source\\repos\\BTLLTW_webBanQuanAo\\btlltw_webbanquanao\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{17EFAF6A-86F1-4425-AD14-5AFCD5740A26}|BTLLTW_webBanQuanAo\\BTLLTW_webBanQuanAo.csproj|solutionrelative:btlltw_webbanquanao\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{17EFAF6A-86F1-4425-AD14-5AFCD5740A26}|BTLLTW_webBanQuanAo\\BTLLTW_webBanQuanAo.csproj|c:\\users\\admin\\source\\repos\\btlltw_webbanquanao\\btlltw_webbanquanao\\signin.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{17EFAF6A-86F1-4425-AD14-5AFCD5740A26}|BTLLTW_webBanQuanAo\\BTLLTW_webBanQuanAo.csproj|solutionrelative:btlltw_webbanquanao\\signin.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{17EFAF6A-86F1-4425-AD14-5AFCD5740A26}|BTLLTW_webBanQuanAo\\BTLLTW_webBanQuanAo.csproj|C:\\Users\\Admin\\source\\repos\\BTLLTW_webBanQuanAo\\btlltw_webbanquanao\\dssp.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{17EFAF6A-86F1-4425-AD14-5AFCD5740A26}|BTLLTW_webBanQuanAo\\BTLLTW_webBanQuanAo.csproj|solutionrelative:btlltw_webbanquanao\\dssp.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{17EFAF6A-86F1-4425-AD14-5AFCD5740A26}|BTLLTW_webBanQuanAo\\BTLLTW_webBanQuanAo.csproj|C:\\Users\\Admin\\source\\repos\\BTLLTW_webBanQuanAo\\btlltw_webbanquanao\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17EFAF6A-86F1-4425-AD14-5AFCD5740A26}|BTLLTW_webBanQuanAo\\BTLLTW_webBanQuanAo.csproj|solutionrelative:btlltw_webbanquanao\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17EFAF6A-86F1-4425-AD14-5AFCD5740A26}|BTLLTW_webBanQuanAo\\BTLLTW_webBanQuanAo.csproj|c:\\users\\admin\\source\\repos\\btlltw_webbanquanao\\btlltw_webbanquanao\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{17EFAF6A-86F1-4425-AD14-5AFCD5740A26}|BTLLTW_webBanQuanAo\\BTLLTW_webBanQuanAo.csproj|solutionrelative:btlltw_webbanquanao\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17EFAF6A-86F1-4425-AD14-5AFCD5740A26}|BTLLTW_webBanQuanAo\\BTLLTW_webBanQuanAo.csproj|c:\\users\\admin\\source\\repos\\btlltw_webbanquanao\\btlltw_webbanquanao\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17EFAF6A-86F1-4425-AD14-5AFCD5740A26}|BTLLTW_webBanQuanAo\\BTLLTW_webBanQuanAo.csproj|solutionrelative:btlltw_webbanquanao\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17EFAF6A-86F1-4425-AD14-5AFCD5740A26}|BTLLTW_webBanQuanAo\\BTLLTW_webBanQuanAo.csproj|C:\\Users\\Admin\\source\\repos\\BTLLTW_webBanQuanAo\\btlltw_webbanquanao\\ctsp.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17EFAF6A-86F1-4425-AD14-5AFCD5740A26}|BTLLTW_webBanQuanAo\\BTLLTW_webBanQuanAo.csproj|solutionrelative:btlltw_webbanquanao\\ctsp.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{17EFAF6A-86F1-4425-AD14-5AFCD5740A26}|BTLLTW_webBanQuanAo\\BTLLTW_webBanQuanAo.csproj|C:\\Users\\Admin\\source\\repos\\BTLLTW_webBanQuanAo\\btlltw_webbanquanao\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{17EFAF6A-86F1-4425-AD14-5AFCD5740A26}|BTLLTW_webBanQuanAo\\BTLLTW_webBanQuanAo.csproj|solutionrelative:btlltw_webbanquanao\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{17EFAF6A-86F1-4425-AD14-5AFCD5740A26}|BTLLTW_webBanQuanAo\\BTLLTW_webBanQuanAo.csproj|C:\\Users\\Admin\\source\\repos\\BTLLTW_webBanQuanAo\\btlltw_webbanquanao\\dssp.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{17EFAF6A-86F1-4425-AD14-5AFCD5740A26}|BTLLTW_webBanQuanAo\\BTLLTW_webBanQuanAo.csproj|solutionrelative:btlltw_webbanquanao\\dssp.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{17EFAF6A-86F1-4425-AD14-5AFCD5740A26}|BTLLTW_webBanQuanAo\\BTLLTW_webBanQuanAo.csproj|C:\\Users\\Admin\\source\\repos\\BTLLTW_webBanQuanAo\\btlltw_webbanquanao\\style\\styleindex.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{17EFAF6A-86F1-4425-AD14-5AFCD5740A26}|BTLLTW_webBanQuanAo\\BTLLTW_webBanQuanAo.csproj|solutionrelative:btlltw_webbanquanao\\style\\styleindex.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{17EFAF6A-86F1-4425-AD14-5AFCD5740A26}|BTLLTW_webBanQuanAo\\BTLLTW_webBanQuanAo.csproj|C:\\Users\\Admin\\source\\repos\\BTLLTW_webBanQuanAo\\btlltw_webbanquanao\\style\\stylelist.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{17EFAF6A-86F1-4425-AD14-5AFCD5740A26}|BTLLTW_webBanQuanAo\\BTLLTW_webBanQuanAo.csproj|solutionrelative:btlltw_webbanquanao\\style\\stylelist.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{17EFAF6A-86F1-4425-AD14-5AFCD5740A26}|BTLLTW_webBanQuanAo\\BTLLTW_webBanQuanAo.csproj|c:\\users\\admin\\source\\repos\\btlltw_webbanquanao\\btlltw_webbanquanao\\about.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{17EFAF6A-86F1-4425-AD14-5AFCD5740A26}|BTLLTW_webBanQuanAo\\BTLLTW_webBanQuanAo.csproj|solutionrelative:btlltw_webbanquanao\\about.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{17EFAF6A-86F1-4425-AD14-5AFCD5740A26}|BTLLTW_webBanQuanAo\\BTLLTW_webBanQuanAo.csproj|C:\\Users\\Admin\\source\\repos\\BTLLTW_webBanQuanAo\\btlltw_webbanquanao\\style\\stylelogin.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{17EFAF6A-86F1-4425-AD14-5AFCD5740A26}|BTLLTW_webBanQuanAo\\BTLLTW_webBanQuanAo.csproj|solutionrelative:btlltw_webbanquanao\\style\\stylelogin.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{17EFAF6A-86F1-4425-AD14-5AFCD5740A26}|BTLLTW_webBanQuanAo\\BTLLTW_webBanQuanAo.csproj|C:\\Users\\Admin\\source\\repos\\BTLLTW_webBanQuanAo\\btlltw_webbanquanao\\style\\base.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{17EFAF6A-86F1-4425-AD14-5AFCD5740A26}|BTLLTW_webBanQuanAo\\BTLLTW_webBanQuanAo.csproj|solutionrelative:btlltw_webbanquanao\\style\\base.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -67,6 +67,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "dssp.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\BTLLTW_webBanQuanAo\\BTLLTW_webBanQuanAo\\dssp.aspx.cs",
+              "RelativeDocumentMoniker": "BTLLTW_webBanQuanAo\\dssp.aspx.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\BTLLTW_webBanQuanAo\\BTLLTW_webBanQuanAo\\dssp.aspx.cs",
+              "RelativeToolTip": "BTLLTW_webBanQuanAo\\dssp.aspx.cs",
+              "ViewState": "AgIAAGIAAAAAAAAAAAAwwHgAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T20:48:21.627Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "dssp.aspx",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\BTLLTW_webBanQuanAo\\BTLLTW_webBanQuanAo\\dssp.aspx",
+              "RelativeDocumentMoniker": "BTLLTW_webBanQuanAo\\dssp.aspx",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\BTLLTW_webBanQuanAo\\BTLLTW_webBanQuanAo\\dssp.aspx",
+              "RelativeToolTip": "BTLLTW_webBanQuanAo\\dssp.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-10-10T20:48:18.623Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "index.aspx",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\BTLLTW_webBanQuanAo\\BTLLTW_webBanQuanAo\\index.aspx",
               "RelativeDocumentMoniker": "BTLLTW_webBanQuanAo\\index.aspx",
@@ -74,7 +100,20 @@
               "RelativeToolTip": "BTLLTW_webBanQuanAo\\index.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-10-08T15:40:43.624Z",
+              "WhenOpened": "2024-10-10T20:47:53.508Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HeaderFooter.Master",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\BTLLTW_webBanQuanAo\\BTLLTW_webBanQuanAo\\HeaderFooter.Master",
+              "RelativeDocumentMoniker": "BTLLTW_webBanQuanAo\\HeaderFooter.Master",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\BTLLTW_webBanQuanAo\\BTLLTW_webBanQuanAo\\HeaderFooter.Master",
+              "RelativeToolTip": "BTLLTW_webBanQuanAo\\HeaderFooter.Master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-10-10T20:47:12.785Z",
               "EditorCaption": ""
             },
             {
@@ -84,156 +123,118 @@
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "About.aspx",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\BTLLTW_webBanQuanAo\\BTLLTW_webBanQuanAo\\About.aspx",
-              "RelativeDocumentMoniker": "BTLLTW_webBanQuanAo\\About.aspx",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\BTLLTW_webBanQuanAo\\BTLLTW_webBanQuanAo\\About.aspx",
-              "RelativeToolTip": "BTLLTW_webBanQuanAo\\About.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-10-08T06:09:22.22Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "styleindex.css",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\BTLLTW_webBanQuanAo\\BTLLTW_webBanQuanAo\\style\\styleindex.css",
-              "RelativeDocumentMoniker": "BTLLTW_webBanQuanAo\\style\\styleindex.css",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\BTLLTW_webBanQuanAo\\BTLLTW_webBanQuanAo\\style\\styleindex.css",
-              "RelativeToolTip": "BTLLTW_webBanQuanAo\\style\\styleindex.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-10-08T05:14:47.95Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "styleList.css",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\BTLLTW_webBanQuanAo\\BTLLTW_webBanQuanAo\\style\\styleList.css",
-              "RelativeDocumentMoniker": "BTLLTW_webBanQuanAo\\style\\styleList.css",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\BTLLTW_webBanQuanAo\\BTLLTW_webBanQuanAo\\style\\styleList.css",
-              "RelativeToolTip": "BTLLTW_webBanQuanAo\\style\\styleList.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-10-08T05:08:44.694Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "base.css",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\BTLLTW_webBanQuanAo\\BTLLTW_webBanQuanAo\\style\\base.css",
-              "RelativeDocumentMoniker": "BTLLTW_webBanQuanAo\\style\\base.css",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\BTLLTW_webBanQuanAo\\BTLLTW_webBanQuanAo\\style\\base.css",
-              "RelativeToolTip": "BTLLTW_webBanQuanAo\\style\\base.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-10-08T04:52:56.28Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "login.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\BTLLTW_webBanQuanAo\\BTLLTW_webBanQuanAo\\login.aspx.cs",
-              "RelativeDocumentMoniker": "BTLLTW_webBanQuanAo\\login.aspx.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\BTLLTW_webBanQuanAo\\BTLLTW_webBanQuanAo\\login.aspx.cs",
-              "RelativeToolTip": "BTLLTW_webBanQuanAo\\login.aspx.cs",
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\BTLLTW_webBanQuanAo\\BTLLTW_webBanQuanAo\\User.cs",
+              "RelativeDocumentMoniker": "BTLLTW_webBanQuanAo\\User.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\BTLLTW_webBanQuanAo\\BTLLTW_webBanQuanAo\\User.cs",
+              "RelativeToolTip": "BTLLTW_webBanQuanAo\\User.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T03:01:07.07Z",
+              "WhenOpened": "2024-10-10T20:40:25Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "Global.asax.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\BTLLTW_webBanQuanAo\\BTLLTW_webBanQuanAo\\Global.asax.cs",
-              "RelativeDocumentMoniker": "BTLLTW_webBanQuanAo\\Global.asax.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\BTLLTW_webBanQuanAo\\BTLLTW_webBanQuanAo\\Global.asax.cs",
-              "RelativeToolTip": "BTLLTW_webBanQuanAo\\Global.asax.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAADwvz8AAACiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T04:11:28.486Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "dssp.aspx.designer.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\BTLLTW_webBanQuanAo\\BTLLTW_webBanQuanAo\\dssp.aspx.designer.cs",
-              "RelativeDocumentMoniker": "BTLLTW_webBanQuanAo\\dssp.aspx.designer.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\BTLLTW_webBanQuanAo\\BTLLTW_webBanQuanAo\\dssp.aspx.designer.cs",
-              "RelativeToolTip": "BTLLTW_webBanQuanAo\\dssp.aspx.designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T03:15:12.74Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "HeaderFooter.Master",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\BTLLTW_webBanQuanAo\\BTLLTW_webBanQuanAo\\HeaderFooter.Master",
-              "RelativeDocumentMoniker": "BTLLTW_webBanQuanAo\\HeaderFooter.Master",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\BTLLTW_webBanQuanAo\\BTLLTW_webBanQuanAo\\HeaderFooter.Master",
-              "RelativeToolTip": "BTLLTW_webBanQuanAo\\HeaderFooter.Master",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-10-08T05:03:17.017Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "dssp.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\BTLLTW_webBanQuanAo\\BTLLTW_webBanQuanAo\\dssp.aspx.cs",
-              "RelativeDocumentMoniker": "BTLLTW_webBanQuanAo\\dssp.aspx.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\BTLLTW_webBanQuanAo\\BTLLTW_webBanQuanAo\\dssp.aspx.cs",
-              "RelativeToolTip": "BTLLTW_webBanQuanAo\\dssp.aspx.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAD4vwQAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T02:54:04.986Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "dssp.aspx",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\BTLLTW_webBanQuanAo\\BTLLTW_webBanQuanAo\\dssp.aspx",
-              "RelativeDocumentMoniker": "BTLLTW_webBanQuanAo\\dssp.aspx",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\BTLLTW_webBanQuanAo\\BTLLTW_webBanQuanAo\\dssp.aspx",
-              "RelativeToolTip": "BTLLTW_webBanQuanAo\\dssp.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-10-08T04:21:31.905Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "index.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\BTLLTW_webBanQuanAo\\BTLLTW_webBanQuanAo\\index.aspx.cs",
-              "RelativeDocumentMoniker": "BTLLTW_webBanQuanAo\\index.aspx.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\BTLLTW_webBanQuanAo\\BTLLTW_webBanQuanAo\\index.aspx.cs",
-              "RelativeToolTip": "BTLLTW_webBanQuanAo\\index.aspx.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T05:18:14.128Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
               "Title": "styleLogin.css",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\BTLLTW_webBanQuanAo\\BTLLTW_webBanQuanAo\\style\\styleLogin.css",
               "RelativeDocumentMoniker": "BTLLTW_webBanQuanAo\\style\\styleLogin.css",
               "ToolTip": "C:\\Users\\Admin\\source\\repos\\BTLLTW_webBanQuanAo\\BTLLTW_webBanQuanAo\\style\\styleLogin.css",
               "RelativeToolTip": "BTLLTW_webBanQuanAo\\style\\styleLogin.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-10-08T04:53:00.648Z"
+              "WhenOpened": "2024-10-10T20:37:17.849Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "styleSignin.css",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\BTLLTW_webBanQuanAo\\BTLLTW_webBanQuanAo\\style\\styleSignin.css",
+              "RelativeDocumentMoniker": "BTLLTW_webBanQuanAo\\style\\styleSignin.css",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\BTLLTW_webBanQuanAo\\BTLLTW_webBanQuanAo\\style\\styleSignin.css",
+              "RelativeToolTip": "BTLLTW_webBanQuanAo\\style\\styleSignin.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-10T20:38:51.468Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "login.aspx",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\BTLLTW_webBanQuanAo\\BTLLTW_webBanQuanAo\\login.aspx",
+              "RelativeDocumentMoniker": "BTLLTW_webBanQuanAo\\login.aspx",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\BTLLTW_webBanQuanAo\\BTLLTW_webBanQuanAo\\login.aspx",
+              "RelativeToolTip": "BTLLTW_webBanQuanAo\\login.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-10-10T20:31:30.916Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "signin.aspx",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\BTLLTW_webBanQuanAo\\BTLLTW_webBanQuanAo\\signin.aspx",
+              "RelativeDocumentMoniker": "BTLLTW_webBanQuanAo\\signin.aspx",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\BTLLTW_webBanQuanAo\\BTLLTW_webBanQuanAo\\signin.aspx",
+              "RelativeToolTip": "BTLLTW_webBanQuanAo\\signin.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-10-10T20:30:32.522Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Item.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\BTLLTW_webBanQuanAo\\BTLLTW_webBanQuanAo\\Item.cs",
+              "RelativeDocumentMoniker": "BTLLTW_webBanQuanAo\\Item.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\BTLLTW_webBanQuanAo\\BTLLTW_webBanQuanAo\\Item.cs",
+              "RelativeToolTip": "BTLLTW_webBanQuanAo\\Item.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwCYAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T20:02:46.483Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Global.asax.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\BTLLTW_webBanQuanAo\\BTLLTW_webBanQuanAo\\Global.asax.cs",
+              "RelativeDocumentMoniker": "BTLLTW_webBanQuanAo\\Global.asax.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\BTLLTW_webBanQuanAo\\BTLLTW_webBanQuanAo\\Global.asax.cs",
+              "RelativeToolTip": "BTLLTW_webBanQuanAo\\Global.asax.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T20:02:35.784Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ctsp.aspx",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\BTLLTW_webBanQuanAo\\BTLLTW_webBanQuanAo\\ctsp.aspx",
+              "RelativeDocumentMoniker": "BTLLTW_webBanQuanAo\\ctsp.aspx",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\BTLLTW_webBanQuanAo\\BTLLTW_webBanQuanAo\\ctsp.aspx",
+              "RelativeToolTip": "BTLLTW_webBanQuanAo\\ctsp.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-10-10T20:00:40.379Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ctsp.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\BTLLTW_webBanQuanAo\\BTLLTW_webBanQuanAo\\ctsp.aspx.cs",
+              "RelativeDocumentMoniker": "BTLLTW_webBanQuanAo\\ctsp.aspx.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\BTLLTW_webBanQuanAo\\BTLLTW_webBanQuanAo\\ctsp.aspx.cs",
+              "RelativeToolTip": "BTLLTW_webBanQuanAo\\ctsp.aspx.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAowEQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T19:47:45.457Z",
+              "EditorCaption": ""
             }
           ]
         }

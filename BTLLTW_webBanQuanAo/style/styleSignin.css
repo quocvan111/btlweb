@@ -46,7 +46,7 @@
     display: none;
 }
 
-.content #notification {
+.content .notification {
     color: #ff0000;
 }
 

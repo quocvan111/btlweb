@@ -26,7 +26,7 @@ namespace BTLLTW_webBanQuanAo
                 return "NAM";
             else if (category == "female")
                 return "NỮ";
-            else return "";
+            else return "TRẺ EM";
         }
 
         private string renderItem()
@@ -169,12 +169,12 @@ namespace BTLLTW_webBanQuanAo
 
             if (item.Price == 0)
             {
-                html += "<p class='price-after'>" + item.Final_price + " đ</p>";
+                html += "<p class='price-after' style = 'color: black'>" + item.Final_price.ToString("N0", new System.Globalization.CultureInfo("vi-VN")) + " đ</p>";
             }
             else
             {
-                html += "<p class='price-after'>" + item.Final_price + " đ</p>" +
-                         "<sub class='price-before'>" + item.Price + " đ</sub>";
+                html += "<p class='price-after'>" + item.Final_price.ToString("N0", new System.Globalization.CultureInfo("vi-VN")) + " đ</p>" +
+                         "<sub class='price-before'>" + item.Price.ToString("N0", new System.Globalization.CultureInfo("vi-VN")) + " đ</sub>";
             }
 
             html += "</div>" +

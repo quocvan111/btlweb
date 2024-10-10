@@ -33,12 +33,12 @@ namespace BTLLTW_webBanQuanAo
 
                 if (list[i].Price == 0)
                 {
-                    sHTML += "<p class='price-after'>" + list[i].Final_price + " đ</p>";
+                    sHTML += "<p class='price-after' style = 'color: black'>" + list[i].Final_price.ToString("N0", new System.Globalization.CultureInfo("vi-VN")) + " đ</p>";
                 }
                 else
                 {
-                    sHTML += "<p class='price-after'>" + list[i].Final_price + " đ</p>" +
-                             "<sub class='price-before'>" + list[i].Price + " đ</sub>";
+                    sHTML += "<p class='price-after'>" + list[i].Final_price.ToString("N0", new System.Globalization.CultureInfo("vi-VN")) + " đ</p>" +
+                             "<sub class='price-before'>" + list[i].Price.ToString("N0", new System.Globalization.CultureInfo("vi-VN")) + " đ</sub>";
                 }
 
                 sHTML += "</div>" + 

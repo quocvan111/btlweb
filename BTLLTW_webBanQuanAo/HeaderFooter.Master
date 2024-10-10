@@ -13,7 +13,7 @@
                 <div class="container">
                     <div class="logo">
                         <a href="index.aspx">
-                            Put logo here
+                            TT-LTW
                         </a>
                     </div>
                     <div class="menu">
@@ -54,7 +54,7 @@
                                 <a href="login.aspx"><img src="resource/user.png" alt="" width="35px"></a>
                             </li>
                             <li>
-                                <a href="#"><img src="resource/cart.png" alt="" width="35px"></a>
+                                <a href="cart.aspx"><img src="resource/cart.png" alt="" width="35px"></a>
                             </li>
                         </ul>
                     </div>
@@ -62,19 +62,16 @@
             </header>
 
             <div class ="main-content">
-                <div class ="container">
                     <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
-                </div>
             </div>
 
             <div class="footer">
                 <div class="container">
                     <div class="inner-wrap">
                         <div class="column col-4">
-                            <img src="resource/aogio_1.jpg" alt="" width="100px">
+                            <h1>TT-LTW</h1>
                             <br/>
-                            <h2>Cửa hàng thời trang số 1 VN :o</h2>
-                            <p>put logo here</p>
+                            <h2>Cửa hàng thời trang số 1 VN</h2>
                         </div>
                         <div class="column col-4">
                             <p><b>Bạn cần hỗ trợ</b></p>

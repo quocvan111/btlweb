@@ -86,9 +86,10 @@ namespace BTLLTW_webBanQuanAo
             itemList.Add(new Item(50, "T-shirt Kid You Are Loved", "resource/kids/ao-thun-tre-em-TSK7247-DEN (1).jpg", 7, 0, 149000, "Áo phông bé yêu \"You Are Loved\" Cotton 95/5 cao cấp, mềm mịn, co giãn tốt thoải mái vận động. Chất liệu tự nhiên, thấm hút mồ hôi nhanh chóng giữ cho bé luôn khô thoáng. Sản phẩm thân thiện với môi trường và an toàn cho sức khỏe của bé.\r\n"));
             itemList.Add(new Item(51, "Quần Short Bé Trai Khoá Ngang Gố", "resource/kids/qsk7008-den-apk5019-xd1-3-2.jpg", 7, 220000, 114500, "Chất liệu nhẹ, mềm mại, tạo cảm giác thoải mái khi mặc.Thấm hút mồ hôi tốt, giúp bé luôn khô ráo và thoáng mát khi vận động. Khô nhanh, hạn chế vi khuẩn phát triển. Độ co giãn tốt, giúp bé dễ dàng vận động.Khóa ngang gối tạo điểm nhấn mới lạ, độc đáo.\r\n"));
 
-
-
             Application["itemList"] = itemList;
+
+            List<Item> itemCart = new List<Item>();
+            Application["itemCart"] = itemCart;
 
             List<User> users = new List<User>();
             users.Add(new User(1, "admin", "admin123", "admin"));
