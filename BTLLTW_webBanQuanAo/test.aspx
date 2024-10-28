@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/HeaderFooter.Master" AutoEventWireup="true" CodeBehind="cart.aspx.cs" Inherits="BTLLTW_webBanQuanAo.cart" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/HeaderFooter.Master" AutoEventWireup="true" CodeBehind="test.aspx.cs" Inherits="BTLLTW_webBanQuanAo.test" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
     <form id="form1" runat="server">
@@ -99,30 +99,26 @@
                         </div>
                         <div class="item-info" style="margin-left:20px; width: 100%">
                             <h3><%# Eval("name") %></h3>
-                            <p><%# Eval("categoryName") %></p>
+                            <p><%# Eval("category") %></p>
                             <div class="row-2">
-                            <div class="quantity" style="margin-top:10px; height: 31px">
-                                <asp:Button Text="-" CssClass="button button-remove" runat="server" CommandName="DecreaseQuantity" CommandArgument='<%# Eval("itemCartID") %>'></asp:Button>
-                                <div class="number" id="number_quantity" runat="server"><%# Eval("quantity") %></div>
-                                <asp:Button Text="+" CssClass="button button-add" runat="server" CommandName="IncreaseQuantity" CommandArgument='<%# Eval("itemCartID") %>'></asp:Button>
-                            </div>
+                                <div class="quantity" style="margin-top:10px; height: 31px">
+                                    <button class="button button-remove">-</button>
+                                    <div class="number" id="number-quantity"><%# Eval("quantity") %></div>
+                                    <button class="button button-add">+</button>
+                                </div>
                                 <div class="price" style="margin-right: 10px;">
-                                    <%# Eval("price") %> đ
+                                    <%# Eval("final_price") %> đ
                                 </div>
                             </div>
                             <div class="size">Size : <%# Eval("size") %></div>
                             <div class="delete">
-                                <asp:Button Text="Xóa" CommandName="DeleteItem" CommandArgument='<%# Eval("itemCartID") %>' runat="server" CssClass="xoa"/>
+                                <asp:Button Text="Xóa" CommandName="DeleteItem" CommandArgument='<%# Eval("Id") %>' runat="server" CssClass="xoa"/>
                             </div>
                         </div>
                     </div>
                 </ItemTemplate>
             </asp:ListView>
             <div id="hiengiatienoday" runat="server"></div>
-                <br>
-                <button type="button" class="purchase">
-                    Thanh toán
-                </button>
         </div>
     </div>
 </div>

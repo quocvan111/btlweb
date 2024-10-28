@@ -13,6 +13,7 @@ namespace BTLLTW_webBanQuanAo
 
         public User(int id, string taikhoan, string matkhau, string role)
         {
+
             this.username = taikhoan;
             this.password = matkhau;
             this.role = role;

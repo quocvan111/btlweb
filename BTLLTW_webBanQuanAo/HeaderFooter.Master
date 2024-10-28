@@ -54,7 +54,10 @@
                                 <a href="login.aspx"><img src="resource/user.png" alt="" width="35px"></a>
                             </li>
                             <li>
-                                <a href="cart.aspx"><img src="resource/cart.png" alt="" width="35px"></a>
+                                <div class="cart">
+                                    <a href="cart.aspx"><img src="resource/cart.png" alt="" width="35px"></a>
+                                    <div class="number" id="number" runat="server">0</div>
+                                </div>
                             </li>
                         </ul>
                     </div>
@@ -107,6 +110,5 @@
                     </div>
                 </div>
             </div>
-
 </body>
 </html>

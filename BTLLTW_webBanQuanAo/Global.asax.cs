@@ -88,12 +88,13 @@ namespace BTLLTW_webBanQuanAo
 
             Application["itemList"] = itemList;
 
-            List<Item> itemCart = new List<Item>();
-            Application["itemCart"] = itemCart;
+            List<ItemCart> itemCarts = new List<ItemCart>();
+            Application["itemCart"] = itemCarts;
 
             List<User> users = new List<User>();
             users.Add(new User(1, "admin", "admin123", "admin"));
             Application["Users"] = users;
+
         }
     }
 }

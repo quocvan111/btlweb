@@ -16,12 +16,14 @@ namespace BTLLTW_webBanQuanAo
         // Tuong tu: 5 -- > 9: NU (f_casual , f_ ,...)
         // 10: Tre em (kids)
 
-        private int id;
-        private string name, image;
-        int category;
-        int price, final_price;
-        string description;
+        public int id;
+        public string name, image;
+        public int category;
+        public int price, final_price;
+        public string description;
         
+
+
         public Item(int id, string name, string image, int category, int price, int final_price, string description)
         {
             this.id = id;

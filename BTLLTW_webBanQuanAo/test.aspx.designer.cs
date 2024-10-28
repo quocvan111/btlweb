@@ -11,7 +11,7 @@ namespace BTLLTW_webBanQuanAo
 {
 
 
-    public partial class cart
+    public partial class test
     {
 
         /// <summary>

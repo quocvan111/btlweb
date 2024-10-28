@@ -89,6 +89,26 @@
                 display: flex;
             }
 
+            .header .container .action ul li .cart {
+                position: relative;
+            }
+
+                .header .container .action ul li .cart .number {
+                    position: absolute;
+                    top: -10px;
+                    right: -10px;
+                    background-color: red;
+                    color: white;
+                    border-radius: 50%;
+                    width: 20px;
+                    height: 20px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: 12px;
+                    text-align: center; 
+                }
+
 /* End of header */
 
 /* Start of body*/
@@ -214,7 +234,6 @@
 /* End of body */
 
 /* Start of footer */
-
 
 .footer {
     margin-top: 20px;

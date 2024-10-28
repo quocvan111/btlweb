@@ -2,7 +2,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,25 +10,35 @@
     <link rel="stylesheet" href="style/base.css">
     <link rel="stylesheet" href="style/styleIndex.css">
     <link rel="stylesheet" href="style/styleDetail.css">
+    <script src="scriptCTSP.js"></script>
 </head>
 
 <body>
+    <form id="form1" runat="server">
     <div class="body">
         <div class="container">
             <div class="image col-6" id="hienAnh" runat="server"></div>
             <div class="info col-6">
                 <div class="info-get-from-item" id="hienInfo" runat="server"></div>
                 <br/>
+                <div class="size">
+                    <p>Size: <label for="" id="size_picked" runat="server"></label></p>
+                    <button type="button" id="size_s" value="S" runat="server" onserverclick="Size_S_Click">S</button>
+                    <button type="button" id="size_m" value="M" runat="server" onserverclick="Size_M_Click">M</button>
+                    <button type="button" id="size_l" value="L" runat="server" onserverclick="Size_L_Click">L</button>
+                    <button type="button" id="size_xl" value="XL" runat="server" onserverclick="Size_XL_Click">XL</button>
+                </div>
+                <br/>
                 <p>Số lượng</p>
                 <div class="row">
-                    <div class="quantity">
-                        <button class="button button-remove">-</button>
-                        <div class="number" id="number-quantity">1</div>
-                        <button class="button button-add">+</button>
-                    </div>
-                    <button class="button button-tocart" id="btn_cart" >
-                        <p>Thêm vào giỏ</p>
-                    </button>
+                <div class="quantity">
+                    <button type="button" class="button button-remove" runat="server" onserverclick="btn_remove_quantityOnClick">-</button>
+                    <input type="text" class="number" id="number_quantity" runat="server" value="1">
+                    <button type="button" class="button button-add" runat="server" onserverclick="btn_add_quantityOnClick">+</button>
+                </div>
+                <button type="submit" class="button button-tocart" id="btn_cart" runat="server" onserverclick="btn_cart_OnClick">
+                    <p>Thêm vào giỏ</p>
+                </button>
                 </div>
                 <a href="#"><button class="button-buy">Mua ngay</button></a>
                 <div class="payment-method">
@@ -60,6 +70,7 @@
             </div>
         </div>
      </div>
+</form>
 </body>
 </html>
 </asp:Content>

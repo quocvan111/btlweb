@@ -155,6 +155,7 @@
     <Content Include="HeaderFooter.Master" />
     <Content Include="index.aspx" />
     <Content Include="login.aspx" />
+    <Content Include="scriptCTSP.js" />
     <Content Include="signin.aspx" />
     <None Include="Scripts\jquery-3.7.0.intellisense.js" />
     <Content Include="Scripts\jquery-3.7.0.js" />
@@ -191,6 +192,7 @@
     <Content Include="style\styleLogin.css" />
     <Content Include="style\styleList.css" />
     <Content Include="style\styleSignin.css" />
+    <Content Include="test.aspx" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Web.config" />
     <Content Include="Bundle.config" />
@@ -219,6 +221,7 @@
     <Compile Include="ctsp.aspx.designer.cs">
       <DependentUpon>ctsp.aspx</DependentUpon>
     </Compile>
+    <Compile Include="ItemCart.cs" />
     <Compile Include="Item.cs" />
     <Compile Include="Contact.aspx.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
@@ -252,6 +255,13 @@
       <DependentUpon>dssp.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="test.aspx.cs">
+      <DependentUpon>test.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="test.aspx.designer.cs">
+      <DependentUpon>test.aspx</DependentUpon>
+    </Compile>
     <Compile Include="User.cs" />
     <Compile Include="ViewSwitcher.ascx.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>

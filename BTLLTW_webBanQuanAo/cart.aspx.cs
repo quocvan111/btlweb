@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
@@ -11,35 +13,14 @@ namespace BTLLTW_webBanQuanAo
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            string s = renderItem();
-            List<Item> items = (List<Item>)Application["itemList"];
-            hienItem.InnerHtml = s;
+            if (!IsPostBack)
+            {
+                BindCart();
+                hiengiatienoday.InnerHtml = generatePriceCart();
+            }
         }
 
-        private string renderItem()
-        {
-            string html = "";
-            List<Item> list = (List<Item>)Application["itemList"];
-            string id = Request.QueryString["id"];
-            if(id == null)
-            {
-                html += "Chưa có sản phẩm nào trong giỏ hàng !";
-            }
-            else
-            {
-                foreach (Item item in list)
-                {
-                    if (item.Id == Int32.Parse(id))
-                    {
-                        html += generateString(item);
-                    }
-                }
-            }
-            return html;
-        }
-
-
-        public string renderCategory(Item item)
+        private string renderCategory(Item item)
         {
             if (item.Category == 1 || item.Category == 4)
                 return "Đồ mặc hằng ngày";
@@ -50,63 +31,128 @@ namespace BTLLTW_webBanQuanAo
             else return "Đồ trẻ em";
         }
 
-        private string generateString(Item item)
+        protected void btn_add_quantityOnClick(object sender, EventArgs e)
         {
-            int quantity = 1;
+            List<ItemCart> itemCarts = (List<ItemCart>)Application["itemCart"];
+            
+        }
+
+        private void BindCartAfterDelete()
+        {
+            List<ItemCart> list = (List<ItemCart>)Application["itemCart"];
+            ListViewCart.DataSource = list;
+            ListViewCart.DataBind();
+        }
+
+        private void BindCart()
+        {
+            List<ItemCart> list = (List<ItemCart>)Application["itemCart"];
+            foreach (ItemCart item in list)
+            {
+                item.CategoryName = renderCategory(item);
+
+                item.price = item.final_price * item.quantity;
+            }
+            ListViewCart.DataSource = list;
+            ListViewCart.DataBind();
+        }
+
+        private string generatePriceCart()
+        {
+            int final_price = 0;
+            List<ItemCart> listCart = (List<ItemCart>)Application["ItemCart"];
+            foreach (ItemCart item in listCart)
+            {
+                final_price += (item.Final_price * item.Quantity);
+            }
             string html = "";
-
-            html += "<div class='row'>" +
-                        "<div class='item-img'>" +
-                            "<img src='" + item.Image + "' alt='' width='120px'>" +
-                        "</div>" +
-                        "<div class='item-info'>" +
-                            "<h3>" + item.Name + "</h3>" +
-                            "<p>" + renderCategory(item) + "</p>" +
-                            "<div class='row-2'>" +
-                                "<div class='quantity'>" +
-                                    "<button class='button button-remove'>-</button>" +
-                                    "<div class='number' id='number-quantity'>" + quantity + "</div>" +
-                                    "<button class='button button-add'>+</button>" +
-                                "</div>" +
-                                "<div class='price'>" + item.Final_price.ToString("N0", new System.Globalization.CultureInfo("vi-VN")) + " đ</div>" +
-                            "</div>" +
-                            "<div class='delete'>" +
-                                "<button type='button' class='xoa'>Xóa</button>" +
-                            "</div>" +
-                        "</div>" +
-                    "</div>" +
-                    "<br>" +
-                    "<hr>" +
-                    "<br>";
-
             html += "<div class='price-cart'>" +
-                        "<div class='row'>" +
-                            "<p>Tạm tính</p>" +
-                            "<div class='price'><p>" + (item.Final_price * quantity).ToString("N0", new System.Globalization.CultureInfo("vi-VN")) + " đ</p></div>" +
-                        "</div>" +
-                        "<div class='row'>" +
-                            "<p>Giảm giá</p>" +
-                            "<div class='price'><p>" + 0 + " đ</p></div>" +
-                        "</div>" +
-                        "<div class='row'>" +
-                            "<p>Phí giao hàng</p>" +
-                            "<div class='price'><p>Miễn phí</p></div>" +
-                        "</div>" +
-                        "<br>" +
-                        "<hr>" +
-                        "<br>" +
-                        "<div class='row'>" +
-                            "<p>Tổng</p>" +
-                            "<div class='total-price'><b><p>" + (item.Final_price * quantity).ToString("N0", new System.Globalization.CultureInfo("vi-VN")) + " đ</p></b></div>" +
-                        "</div>" +
-                    "</div>" +
-                    "<br>" +
-                    "<button type='button' class='purchase'>Thanh toán</button>";
-
+            "<div class='row'>" +
+                "<p>Tạm tính</p>" +
+                "<div class='price'><p>" + final_price.ToString("N0", new System.Globalization.CultureInfo("vi-VN")) + " đ</p></div>" +
+            "</div>" +
+            "<div class='row'>" +
+                "<p>Giảm giá</p>" +
+                "<div class='price'><p>" + 0 + " đ</p></div>" +
+            "</div>" +
+            "<div class='row'>" +
+                "<p>Phí giao hàng</p>" +
+                "<div class='price'><p>Miễn phí</p></div>" +
+            "</div>" +
+            "<br>" +
+            "<hr>" +
+            "<br>" +
+            "<div class='row'>" +
+                "<p>Tổng</p>" +
+                "<div class='total-price'><b><p>" + final_price.ToString("N0", new System.Globalization.CultureInfo("vi-VN")) + " đ</p></b></div>" +
+            "</div>" +
+        "</div>" +
+        "<br>";
             return html;
         }
 
+        private void GenerateTotalPrice(List<ItemCart> itemCart)
+        {
+            int totalPrice = itemCart.Sum(item => item.price);
+            hiengiatienoday.InnerHtml = $"Tổng tiền: {totalPrice.ToString("N0", new System.Globalization.CultureInfo("vi-VN"))} đ";
+        }
+
+        protected void ListViewCart_ItemCommand(object sender, ListViewCommandEventArgs e)
+        {
+            if (e.CommandName == "DeleteItem")
+            {
+                int itemCartID = int.Parse(e.CommandArgument.ToString());
+                List<ItemCart> itemCart = (List<ItemCart>)Application["itemCart"];
+
+                // Remove the item from the cart
+                ItemCart itemToRemove = itemCart.Find(item => item.itemCartID == itemCartID);
+                if (itemToRemove != null)
+                {
+                    itemCart.Remove(itemToRemove);
+                }
+
+                // Update Application state and rebind cart
+                Application["itemCart"] = itemCart;
+                BindCartAfterDelete();
+                hiengiatienoday.InnerHtml = generatePriceCart();
+            }
+
+            if (e.CommandName == "IncreaseQuantity")
+            {
+                int itemCartID = int.Parse(e.CommandArgument.ToString());
+                List<ItemCart> itemCart = (List<ItemCart>)Application["itemCart"];
+
+                // Find the item to increase its quantity
+                ItemCart itemToUpdate = itemCart.Find(item => item.itemCartID == itemCartID);
+                if (itemToUpdate != null)
+                {
+                    itemToUpdate.Quantity += 1; // Increase quantity by 1
+                }
 
 
+                // Update Application state and rebind cart
+                Application["itemCart"] = itemCart;
+                BindCart();
+                hiengiatienoday.InnerHtml = generatePriceCart();
+            }
+
+            if (e.CommandName == "DecreaseQuantity")
+            {
+                int itemCartID = int.Parse(e.CommandArgument.ToString());
+                List<ItemCart> itemCart = (List<ItemCart>)Application["itemCart"];
+
+                // Find the item to decrease its quantity
+                ItemCart itemToUpdate = itemCart.Find(item => item.itemCartID == itemCartID);
+                if (itemToUpdate != null && itemToUpdate.Quantity > 1)
+                {
+                    itemToUpdate.Quantity -= 1; // Decrease quantity by 1
+                }
+
+                // Update Application state and rebind cart
+                Application["itemCart"] = itemCart;
+                BindCart();
+                hiengiatienoday.InnerHtml = generatePriceCart();
+            }
+        }
     }
 }

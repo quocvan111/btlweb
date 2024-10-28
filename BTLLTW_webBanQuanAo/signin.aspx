@@ -7,7 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/base.css">
     <link rel="stylesheet" href="style/styleIndex.css">
-    <link rel="stylesheet" href="style/styleSignin.css">
     <title>Document</title>
 </head>
 <body>
@@ -32,6 +31,7 @@
             </form>                
         </div>
     </div>
+        <link rel="stylesheet" href="style/styleSignin.css">
 </body>
 </html>
 </asp:Content>
