@@ -60,15 +60,16 @@ namespace BTLLTW_webBanQuanAo
         private string generatePriceCart()
         {
             int final_price = 0;
+            int sl = 0;
             List<ItemCart> listCart = (List<ItemCart>)Application["ItemCart"];
             foreach (ItemCart item in listCart)
             {
-                final_price += (item.Final_price * item.Quantity);
+                final_price += (item.Final_price * item.Quantity);            
             }
             string html = "";
             html += "<div class='price-cart'>" +
             "<div class='row'>" +
-                "<p>Tạm tính</p>" +
+                "<p>Tạm tính</p>" +                
                 "<div class='price'><p>" + final_price.ToString("N0", new System.Globalization.CultureInfo("vi-VN")) + " đ</p></div>" +
             "</div>" +
             "<div class='row'>" +

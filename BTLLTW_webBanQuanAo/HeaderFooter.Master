@@ -7,13 +7,42 @@
     <title></title>
     <link rel="stylesheet" href="style/styleIndex.css">
     <link rel="stylesheet" href="style/base.css">
+    <script>
+        function searchRedirect() {
+            const searchText = document.getElementById("search").value.trim();
+            if (searchText) {
+                window.location.href = 'dssp.aspx?search=' + encodeURIComponent(searchText);//encodeURIComponent:mã hóa một chuỗi (string) để có thể sử dụng trong URL
+            } else {
+                alert("Vui lòng nhập nội dung tìm kiếm!");
+            }
+        }
+    </script>
+    <style>      
+   .header .container .action ul li a {
+        color: white;
+        text-align:center
+    }
+    table {
+        width: 100%;
+        border-collapse: collapse; 
+    }
+    th, td {
+        border: 1px solid black; 
+        padding: 10px;
+        text-align: center;
+    }
+    th {
+        background-color: #f2f2f2; 
+    }
+</style>
+    
 </head>
 <body>
             <header class="header">
                 <div class="container">
                     <div class="logo">
                         <a href="index.aspx">
-                            TT-LTW
+                            Put logo here
                         </a>
                     </div>
                     <div class="menu">
@@ -42,22 +71,20 @@
 
                     <div class="action">
                         <ul>
+                             <li><a href="them.aspx">Chỉnh sửa sản phẩm</a></li>
                             <li>
                                 <div class="search-box">
                                     <div class="search-box-img">
-                                        <a href="#"><img src="resource/search.png" alt="" width="35px"></a>
-                                    </div>
-                                    <input type="text" name="search" id="search" value="">
+                                        <a onclick="searchRedirect()"><img src="resource/search.png" alt="" width="35px"></a>
+                                    </div>                                   
+                                    <input type="text" name="search" id="search" onkeydown=" if(event.key === 'Enter'){ searchRedirect(); }">                                                                      
                                 </div>
                             </li>
                             <li>
                                 <a href="login.aspx"><img src="resource/user.png" alt="" width="35px"></a>
                             </li>
                             <li>
-                                <div class="cart">
-                                    <a href="cart.aspx"><img src="resource/cart.png" alt="" width="35px"></a>
-                                    <div class="number" id="number" runat="server">0</div>
-                                </div>
+                                <a href="cart.aspx"><img src="resource/cart.png" alt="" width="35px"></a>
                             </li>
                         </ul>
                     </div>
@@ -65,16 +92,19 @@
             </header>
 
             <div class ="main-content">
+                <div class ="container">
                     <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+                </div>
             </div>
 
             <div class="footer">
                 <div class="container">
                     <div class="inner-wrap">
                         <div class="column col-4">
-                            <h1>TT-LTW</h1>
+                            <img src="resource/aogio_1.jpg" alt="" width="100px">
                             <br/>
-                            <h2>Cửa hàng thời trang số 1 VN</h2>
+                            <h2>Cửa hàng thời trang số 1 VN :o</h2>
+                            <p>put logo here</p>
                         </div>
                         <div class="column col-4">
                             <p><b>Bạn cần hỗ trợ</b></p>
@@ -110,5 +140,6 @@
                     </div>
                 </div>
             </div>
+
 </body>
 </html>

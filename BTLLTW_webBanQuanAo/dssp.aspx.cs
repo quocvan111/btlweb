@@ -21,8 +21,14 @@ namespace BTLLTW_webBanQuanAo
 
         private string renderTitle()
         {
+            string searchKeyword = Request.QueryString["search"];
             string category = Request.QueryString["category"];
-            if (category == "male")
+            if (!string.IsNullOrEmpty(searchKeyword))
+            {
+                return "KẾT QUẢ TÌM KIẾM CHO: " + searchKeyword;
+            }
+            
+             if (category == "male")
                 return "NAM";
             else if (category == "female")
                 return "NỮ";
@@ -34,6 +40,18 @@ namespace BTLLTW_webBanQuanAo
             string html = "";
             List<Item> list = (List<Item>)Application["itemList"];
             string category = Request.QueryString["category"];
+            string search = Request.QueryString["search"];
+
+            if (search != null)
+            {
+                foreach (Item item in list)
+                {
+                    if (item.Name.IndexOf(search, StringComparison.OrdinalIgnoreCase) >= 0)
+                    {
+                        html += generateString(item);
+                    }
+                }
+            }
 
             if (category == "male")
             {

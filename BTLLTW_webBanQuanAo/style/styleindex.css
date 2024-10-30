@@ -12,7 +12,7 @@
 }
 
     .header .container {
-        display: flex;
+        display: grid;
         justify-content: space-between;
         align-items: center;
     }
@@ -48,6 +48,27 @@
             background-color: #3c3a3a;
             text-decoration: underline;
         }
+
+@media (max-width: 768px) {
+    .header .container {
+        flex-direction: column; /* Xếp chồng các phần tử theo cột */
+        align-items: flex-start;
+    }
+
+        .header .container .logo a {
+            margin: 0 auto; /* Canh giữa logo */
+        }
+
+        .header .container .menu ul {
+            flex-direction: column; /* Menu dọc */
+            width: 100%;
+        }
+
+            .header .container .menu ul li {
+                width: 100%; /* Mỗi mục menu chiếm toàn bộ chiều rộng */
+                padding: 15px 0; /* Thêm padding để dễ bấm trên thiết bị di động */
+            }
+}
 
 .menu ul li:hover > .dropdown-menu {
     visibility: visible;

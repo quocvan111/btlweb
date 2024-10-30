@@ -49,6 +49,6 @@
 }
 
 .container {
-    display: flex;
+    display: grid;
     justify-content: space-between;
 }
