@@ -25,8 +25,9 @@ namespace BTLLTW_webBanQuanAo
             // Tuong tu: 4 -- > 6: NU (f_casual , f_ ,...)
             // 7: Tre em (kids)
 
+
             List<Item> itemList = new List<Item>();
-            itemList.Add(new Item(1, "Áo Khoác Gió Thông Minh Nữ Trượt Nước", "resource/aogio_1.jpg", 3, 599000, 539000, "Áo gió thông minh làm từ chất liệu vải gió, được cải tiến và nâng cấp với khả năng trượt nước. Đặc biệt có thể lộn ngược và gấp gọn thành 1 chiếc túi dễ dàng mang đi mọi nơi. Thiết kế gấu áo có chun rút, chun tay tránh gió lùa hiệu quả."));
+            itemList.Add(new Item(1, "Áo Khoác Gió Thông Minh Nữ Trượt Nước", "resource/aogio_1.jpg", 5, 599000, 539000, "Áo gió thông minh làm từ chất liệu vải gió, được cải tiến và nâng cấp với khả năng trượt nước. Đặc biệt có thể lộn ngược và gấp gọn thành 1 chiếc túi dễ dàng mang đi mọi nơi. Thiết kế gấu áo có chun rút, chun tay tránh gió lùa hiệu quả."));
             itemList.Add(new Item(2, "Áo Khoác Gió Nam Thông Minh Trượt Nước", "resource/aogio_2.jpg", 1, 599000, 539000, "Áo gió thông minh làm từ chất liệu vải gió, được cải tiến và nâng cấp với khả năng trượt nước. Đặc biệt có thể lộn ngược và gấp gọn thành 1 chiếc túi dễ dàng mang đi mọi nơi. Thiết kế gấu áo có chun rút, chun tay tránh gió lùa hiệu quả."));
             itemList.Add(new Item(3, "Áo Khoác Gió Thông Minh Trẻ Em Trượt Nước", "resource/aogiotreem_3.png", 9, 0, 499000, "Áo gió thông minh làm từ chất liệu vải gió, được cải tiến và nâng cấp với khả năng trượt nước. Đặc biệt có thể lộn ngược và gấp gọn thành 1 chiếc túi dễ dàng mang đi mọi nơi. Thiết kế gấu áo có chun rút, chun tay tránh gió lùa hiệu quả."));
             itemList.Add(new Item(4, "Áo Khoác Gió Thể Thao Nam Một Lớp Phối Khóa", "resource/aokhoacthethao_1.png", 3, 599000, 539000, "Áo gió thông minh làm từ chất liệu vải gió, được cải tiến và nâng cấp với khả năng trượt nước. Đặc biệt có thể lộn ngược và gấp gọn thành 1 chiếc túi dễ dàng mang đi mọi nơi. Thiết kế gấu áo có chun rút, chun tay tránh gió lùa hiệu quả."));
@@ -91,9 +92,14 @@ namespace BTLLTW_webBanQuanAo
             List<ItemCart> itemCarts = new List<ItemCart>();
             Application["itemCart"] = itemCarts;
 
+
+
             List<User> users = new List<User>();
             users.Add(new User(1, "admin", "admin123", "admin"));
+            users.Add(new User(2, "shaoang", "dasdas", "admin"));
             Application["Users"] = users;
+
+            Application["nextUserId"] = 3;
 
         }
     }

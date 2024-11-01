@@ -12,7 +12,7 @@
 <body>
     <div class="body">
         <div class="inner-wrap">
-            <form action="" method="post" class="form">
+            <form action="" method="post" class="form" runat="server">
                 <div class="row">
                     <h1>Đăng ký</h1>
                     <a href="login.aspx">Quay về đăng nhập</a>
@@ -22,10 +22,10 @@
                     <p>Tên đăng nhập</p>
                         <input type="text" name="username" id="username" placeholder="Nhập tên đăng nhập">
                     <p>Mật khẩu</p>
-                    <input type="password" name="passowrd" id="password" placeholder="Nhập tên mật khẩu">
+                    <input type="password" name="password" id="password" placeholder="Nhập tên mật khẩu">
                     <p>Nhập lại mật khẩu</p>
-                    <input type="password" name="passowrd" id="re-password" placeholder="Nhập tên lại mật khẩu">
-                    <label for="" class="notification hidden">test</label>
+                    <input type="password" name="re-password" id="re-password" placeholder="Nhập tên lại mật khẩu">
+                    <label for="" class="hidden" id="notification" runat="server">test</label>
                 </div>
                 <input type="submit" value="Đăng ký" class="button">
             </form>                

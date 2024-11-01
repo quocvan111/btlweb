@@ -34,7 +34,6 @@ namespace BTLLTW_webBanQuanAo
         protected void btn_add_quantityOnClick(object sender, EventArgs e)
         {
             List<ItemCart> itemCarts = (List<ItemCart>)Application["itemCart"];
-            
         }
 
         private void BindCartAfterDelete()
@@ -106,6 +105,7 @@ namespace BTLLTW_webBanQuanAo
 
                 // Remove the item from the cart
                 ItemCart itemToRemove = itemCart.Find(item => item.itemCartID == itemCartID);
+                int quantityRemove = itemToRemove.quantity;
                 if (itemToRemove != null)
                 {
                     itemCart.Remove(itemToRemove);
@@ -115,6 +115,14 @@ namespace BTLLTW_webBanQuanAo
                 Application["itemCart"] = itemCart;
                 BindCartAfterDelete();
                 hiengiatienoday.InnerHtml = generatePriceCart();
+
+                int currentQuantity = 0;
+                foreach (ItemCart item in itemCart)
+                {
+                    currentQuantity += item.quantity;
+                }
+                Session["quantity"] = currentQuantity;
+                Response.Redirect(Request.RawUrl);
             }
 
             if (e.CommandName == "IncreaseQuantity")

@@ -7,6 +7,34 @@
     <title></title>
     <link rel="stylesheet" href="style/styleIndex.css">
     <link rel="stylesheet" href="style/base.css">
+        <script>
+            function searchRedirect() {
+                const searchText = document.getElementById("search").value.trim().toUpperCase();
+                if (searchText) {
+                    window.location.href = 'dssp.aspx?search=' + encodeURIComponent(searchText);//encodeURIComponent:mã hóa một chuỗi (string) để có thể sử dụng trong URL
+                } else {
+                    alert("Vui lòng nhập nội dung tìm kiếm!");
+                }
+            }
+        </script>
+        <style>      
+           .header .container .action ul li a {
+                color: white;
+                text-align:center
+            }
+            table {
+                width: 100%;
+                border-collapse: collapse; 
+            }
+            th, td {
+                border: 1px solid black; 
+                padding: 10px;
+                text-align: center;
+            }
+            th {
+                background-color: #f2f2f2; 
+            }
+        </style>
 </head>
 <body>
             <header class="header">
@@ -40,23 +68,32 @@
                         </ul>
                     </div>
 
+                    <div class="hidden" id="account" runat="server">
+                        <label id="greeting" runat="server" style="display:flex"></label>
+                        <a href="signOut.aspx" style='color:white'">Dang xuat</a>
+                    </div>
+
+                    <div class="hidden" id="management" style="margin-left: 20px" runat="server">
+                        <a href="them.aspx" style='color:white'">Quản trị</a>
+                    </div>
+
                     <div class="action">
                         <ul>
                             <li>
                                 <div class="search-box">
                                     <div class="search-box-img">
-                                        <a href="#"><img src="resource/search.png" alt="" width="35px"></a>
-                                    </div>
-                                    <input type="text" name="search" id="search" value="">
+                                        <a onclick="searchRedirect()"><img src="resource/search.png" alt="" width="35px"></a>
+                                    </div>                                   
+                                    <input type="text" name="search" id="search" onkeydown=" if(event.key === 'Enter'){ searchRedirect(); }">                                                                      
                                 </div>
                             </li>
                             <li>
-                                <a href="login.aspx"><img src="resource/user.png" alt="" width="35px"></a>
+                                <a href="login.aspx" id="login" runat="server"><img src="resource/user.png" alt="" width="35px"></a>
                             </li>
                             <li>
                                 <div class="cart">
                                     <a href="cart.aspx"><img src="resource/cart.png" alt="" width="35px"></a>
-                                    <div class="number" id="number" runat="server">0</div>
+                                    <div class="number" id="cart_number" runat="server"></div>
                                 </div>
                             </li>
                         </ul>

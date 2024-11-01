@@ -1,4 +1,12 @@
-﻿body {
+﻿.red{
+    color: red;
+}
+
+.green{
+    color: lime;
+}
+
+body {
 }
 .col-1 {
     width: calc((1 / 12) * 100%);

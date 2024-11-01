@@ -12,22 +12,45 @@ namespace BTLLTW_webBanQuanAo
         protected void Page_Load(object sender, EventArgs e)
         {
             List<User> users = (List<User>)Application["Users"];
-            string tkdn = Request.Form["username"];
-            string mkdn = Request.Form["passowrd"];
+            string username = Request.Form["username"];
+            string password = Request.Form["passowrd"];
 
-            if (tkdn != null && mkdn != null)
+            if (username != null && password != null)
             {
-                int checkdn = 0;
-                int index = 0;
-                for (int i = 0; i < users.Count; i++)
+                foreach (User user in users)
                 {
-                    if (String.Compare(users[i].Taikhoan, tkdn.ToString(), false) == 0 && String.Compare(users[i].Matkhau, mkdn.ToString(), false) == 0)
+                    if (username == user.Taikhoan && password == user.Matkhau)
                     {
-                        index = i;
-                        checkdn++;
+                        Session["username"] = username;
+                        Session["role"] = user.Role;
                         Response.Redirect("index.aspx");
                     }
+                    else if (username == user.Taikhoan && password != user.Matkhau)
+                    {
+                        notification.Attributes["class"] = "red";
+                        notification.InnerHtml = "Sai mật khẩu !";
+                    }
+                    else if (username != user.Taikhoan)
+                    {
+                        notification.Attributes["class"] = "red";
+                        notification.InnerHtml = "Tài khoản không tồn tại !";
+                    }
+                    else
+                    {
+                        notification.Attributes["class"] = "red";
+                        notification.InnerHtml = "Sai thông tin đăng nhập !";
+                    }
                 }
+                //for (int i = 0; i < users.Count; i++)
+                //{
+                //    if (String.Compare(users[i].Taikhoan, tkdn.ToString(), false) == 0 && String.Compare(users[i].Matkhau, mkdn.ToString(), false) == 0)
+                //    {
+                //        index = i;
+                //        checkdn++;
+
+                //        Response.Redirect("index.aspx");
+                //    }
+                //}
             }
         }
     }

@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.Linq;
+using System.Threading;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.HtmlControls;
@@ -62,6 +64,36 @@ namespace BTLLTW_webBanQuanAo
             number_quantity.Value = quantity.ToString();
         }
 
+        //btn_buynow click
+
+        protected void btn_buyNow_OnClick(object sender, EventArgs e)
+        {
+            // Khởi tạo một giỏ hàng mới
+            List<ItemCart> itemCart = new List<ItemCart>();
+
+            // Lấy id sản phẩm từ QueryString
+            string id = Request.QueryString["id"];
+            Item item = getItem(Int32.Parse(id));
+            int quantity = getQuantity();
+            string size = size_picked.InnerHtml.ToString();
+            if (size == "")
+            {
+                Response.Write("<script>alert('Hãy chọn size');</script>");
+                return;
+            }
+
+            int itemCartID = 99; 
+
+            ItemCart itemTemp = new ItemCart(itemCartID, item.Id, item.Name, item.Image, item.Category, item.Price, item.Final_price, item.Description, size, quantity);
+
+            itemCart.Add(itemTemp);
+
+            Application["itemCart"] = itemCart;
+            Session["quantity"] = itemTemp.quantity;
+
+            Response.Redirect("cart.aspx");
+        }
+
         //btn_cart click
         protected void btn_cart_OnClick(object sender, EventArgs e)
         {
@@ -74,6 +106,11 @@ namespace BTLLTW_webBanQuanAo
             Item item = getItem(Int32.Parse(id));
             int quantity = getQuantity();
             string size = size_picked.InnerHtml.ToString();
+            if (size == "")
+            {
+                Response.Write("<script>alert('Hãy chọn size');</script>");
+                return;
+            }
 
             // Kiểm tra xem itemCartID hiện tại trong Application là bao nhiêu, nếu chưa có thì gán bằng 1
             int itemCartID = (int?)Application["itemCartID"] ?? 1;
@@ -91,13 +128,23 @@ namespace BTLLTW_webBanQuanAo
                 if (itemcart.Id == itemTemp.Id && itemcart.Size == itemTemp.Size)
                 {
                     itemcart.quantity += itemTemp.quantity;
+                    Response.Write("<script>alert('Giỏ hàng đã được cập nhật!');</script>");
+                    Response.Redirect(Request.RawUrl); // Chuyển hướng lại trang hiện tại để tránh lặp lại POST
                     return;
                 }
             }
 
             // Thêm sản phẩm mới vào giỏ hàng
             itemCart.Add(itemTemp);
+
+            int currentQuantity = (int?)Session["quantity"] ?? 0;
+            Session["quantity"] = currentQuantity + itemTemp.quantity;
+
+            // Hiện thông báo và chuyển hướng
+            Response.Write("<script>alert('Giỏ hàng đã được cập nhật!');</script>");
+            Response.Redirect(Request.RawUrl); // Chuyển hướng lại trang hiện tại để tránh lặp lại POST
         }
+
 
 
         //get info Item

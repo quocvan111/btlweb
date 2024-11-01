@@ -40,7 +40,7 @@
                     <p>Thêm vào giỏ</p>
                 </button>
                 </div>
-                <a href="#"><button class="button-buy">Mua ngay</button></a>
+                <button type="submit" class="button-buy" runat="server" onserverclick="btn_buyNow_OnClick">Mua ngay</button>
                 <div class="payment-method">
                     <div class="images">
                         <img src="resource/payment_method/zalopay.jpg" alt="" width="87px">
