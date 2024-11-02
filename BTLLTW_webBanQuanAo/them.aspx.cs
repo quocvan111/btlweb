@@ -14,56 +14,38 @@ namespace BTLLTW_webBanQuanAo
 
         protected void Page_Load(object sender, EventArgs e)
         {
-            List<Item> items = Application["itemList"] as List<Item> ?? new List<Item>();
+            List<Item> items = (List<Item>)Application["itemList"];
 
-            if (!string.IsNullOrEmpty(Request.Form["id"]))
+            if (string.IsNullOrEmpty(Request.Form["id"]))
             {
-                inputID = int.TryParse(Request.Form["id"], out int idValue) ? idValue : items.Count + 1;
+                inputID = items.Count + 1; // Tăng ID
                 inputName = Request.Form["name"];
                 inputCategory = Convert.ToInt32(Request.Form["category"]);
                 inputPrice = Convert.ToInt32(Request.Form["price"]);
                 inputFinal_Price = Convert.ToInt32(Request.Form["final_price"]);
                 inputDescription = Request.Form["describe"];
 
-
-                if (Request.QueryString["delete"] != null)
+                // Kiểm tra file upload trước khi gọi saveFile
+                if (Request.Files["image"] != null && Request.Files["image"].ContentLength > 0)
                 {
-                    int deletesp;
-                    if (int.TryParse(Request.QueryString["delete"], out deletesp))
-                    {
-                        items.RemoveAll(item => item.Id == deletesp);
+                    saveFile(Request.Files["image"], Server.MapPath("~/resource/"));
+                    inputImage = "resource/" + fileName;
 
-
-                        Application["itemList"] = items;
-                        Response.Redirect("them.aspx"); 
-                        return; 
-                    }
-                }
-
-                // Kiểm tra nếu đang sửa
-                if (Request.QueryString["sua"] != null)
-                {
-                    UpdateItem(items, inputID);
+                    items.Add(new Item(inputID, inputName, inputImage, inputCategory, inputPrice, inputFinal_Price, inputDescription));
                     Application["itemList"] = items;
                     Response.Redirect("them.aspx");
                 }
                 else
                 {
-                    if (Request.Files["image"] != null && Request.Files["image"].ContentLength > 0)
-                    {
-                        saveFile(Request.Files["image"], Server.MapPath("~/resource/"));
-                        inputImage = "resource/" + fileName;
-
-                        items.Add(new Item(inputID, inputName, inputImage, inputCategory, inputPrice, inputFinal_Price, inputDescription));
-                        Application["itemList"] = items;
-                        Response.Redirect("them.aspx");
-                    }
+                    //Response.Write("No image file uploaded.");
+                    //Response.Write(inputImage);
                 }
             }
 
             // Hiển thị danh sách sản phẩm
             DisplayItems(items);
 
+            // Gán giá trị cho các trường khi chỉnh sửa sản phẩm
             if (Request.QueryString["sua"] != null)
             {
                 id.Value = Request.QueryString["sua"];
@@ -75,40 +57,22 @@ namespace BTLLTW_webBanQuanAo
             }
         }
 
+        // Hàm lưu file hình ảnh
         public void saveFile(HttpPostedFile file, string path)
         {
             fileName = Path.GetFileName(file.FileName);
             string filePath = Path.Combine(path, fileName);
 
+            // Tạo thư mục nếu chưa tồn tại
             if (!Directory.Exists(path))
             {
                 Directory.CreateDirectory(path);
             }
+
             file.SaveAs(filePath);
         }
 
-        private void UpdateItem(List<Item> items, int id)
-        {
-            foreach (Item item in items)
-            {
-                if (item.Id == id)
-                {
-                    item.Name = inputName;
-                    item.Category = inputCategory;
-                    item.Price = inputPrice;
-                    item.Final_price = inputFinal_Price;
-                    item.Description = inputDescription;
-
-                    if (Request.Files["image"] != null && Request.Files["image"].ContentLength > 0)
-                    {
-                        saveFile(Request.Files["image"], Server.MapPath("~/resource/"));
-                        item.Image = "resource/" + fileName;
-                    }
-                    break;
-                }
-            }
-        }
-
+        // Hàm hiển thị danh sách sản phẩm
         private void DisplayItems(List<Item> items)
         {
             string tableHtml = "<table><tr><td>STT</td><td>ID</td><td>Tên sản phẩm</td><td>Đường dẫn ảnh</td><td>Loại</td><td>Giá</td><td>Giá cuối</td><td>Mô tả</td></tr>";
