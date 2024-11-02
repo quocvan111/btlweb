@@ -24,7 +24,7 @@ namespace BTLLTW_webBanQuanAo
             for (var i = 0; i < 4; i++)
             {
                 sHTML += "<div class='item'>" +
-                            "<a href='#'>" +
+                            "<a href='ctsp.aspx?id=" + list[i].Id + "'>" +
                                 "<img src='" + list[i].Image + "' alt=''>" +
                             "</a>" +
                             "<div class='item-info'>" +

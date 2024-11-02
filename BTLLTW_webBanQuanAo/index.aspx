@@ -21,20 +21,7 @@
                 <div class="title">
                     <h2>Sản phẩm ưa chuộng</h2>
                 </div>
-                <div class="row-1">
-                    <div class="option">
-                        <p>Áo gió</p>
-                    </div>
-                    <div class="option">
-                        <p>Áo polo</p>
-                    </div>
-                    <div class="option">
-                        <p>Sơ mi</p>
-                    </div>
-                    <div class="option">
-                        <p>Quần Âu</p>
-                    </div>
-                </div>
+                <br />
             </div>
             <div class="content-container">
                     <div id="hienoday" runat="server"></div>

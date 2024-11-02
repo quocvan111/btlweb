@@ -13,11 +13,11 @@
             border: 1px solid black ;
         }
     </style>
-    <form id="form1" runat="server">
+    <form id="form1" method="post" enctype="multipart/form-data">
         <div>
-             id: <input type="text" id="id" name="id" runat="server"/><br /><br />
+             id: <input type="text" id="id" name="id" runat="server"/> (nếu thêm sản phẩm, hãy bỏ qua)<br /><br />
              name: <input type="text" id="name" name="name" runat="server"/> <br /> <br />
-             image: <input type="file" id="image" name="image" runat="server"/><br /><br />
+             image: <input type="file" id="image" name="image" accept="image/*" runat="server"/><br /><br />
              category: <input type="text" id="category" name="category" runat="server" /> <br /><br />
              price: <input type="text" id="price" name="price" runat="server"/> <br /><br />
              final_price: <input type="text" id="final_price" name="final_price" runat="server"/> <br /><br />

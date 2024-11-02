@@ -124,6 +124,7 @@
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="dssp.aspx" />
+    <Content Include="resource\aogio_1.jpg" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.esm.js" />
@@ -310,7 +311,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="resource\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
