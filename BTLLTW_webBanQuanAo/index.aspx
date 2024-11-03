@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/HeaderFooter.Master" AutoEventWireup="true" CodeBehind="index.aspx.cs" Inherits="BTLLTW_webBanQuanAo.WebForm2" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/HeaderFooter.Master " AutoEventWireup="true" CodeBehind="index.aspx.cs" Inherits="BTLLTW_webBanQuanAo.WebForm2" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <!DOCTYPE html>
 <html lang="en">
@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style/base.css">
-    <link rel="stylesheet" href="style/styleIndex.css">
+    <link rel="stylesheet" href="style/styleindex.css">
 </head>
 
 <body>

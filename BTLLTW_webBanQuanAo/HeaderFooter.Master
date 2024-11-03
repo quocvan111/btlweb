@@ -5,8 +5,8 @@
 <html>
 <head runat="server">
     <title></title>
-    <link rel="stylesheet" href="style/styleIndex.css">
     <link rel="stylesheet" href="style/base.css">
+    <link rel="stylesheet" href="style/styleindex.css">
     <script>
         function searchRedirect() {
             const searchText = document.getElementById("search").value.trim();
@@ -17,23 +17,29 @@
             }
         }
     </script>
-    <style>      
-   .header .container .action ul li a {
-        color: white;
-        text-align:center
-    }
-    table {
-        width: 100%;
-        border-collapse: collapse; 
-    }
-    th, td {
-        border: 1px solid black; 
-        padding: 10px;
-        text-align: center;
-    }
-    th {
-        background-color: #f2f2f2; 
-    }
+    <style>  
+    
+       .header .container .action ul li a {
+            color: white;
+            text-align:center
+        }
+       table {
+            width: 100%;
+            border-collapse: collapse; 
+        }
+       th, td {
+            border: 1px solid black; 
+            padding: 10px;
+            text-align: center;
+        }
+       th {
+            background-color: #f2f2f2; 
+       }
+       .container {
+            display: flex;
+            justify-content: space-between;
+       }
+
 </style>
     
 </head>
