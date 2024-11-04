@@ -1,6 +1,12 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/HeaderFooter.Master" AutoEventWireup="true" CodeBehind="cart.aspx.cs" Inherits="BTLLTW_webBanQuanAo.cart" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/base.css">
+    <link rel="stylesheet" href="style/styleIndex.css">
+</head>
     <form id="form1" runat="server">
 
 <link rel="stylesheet" href="style/base.css">

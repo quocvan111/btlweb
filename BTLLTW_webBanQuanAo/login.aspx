@@ -26,7 +26,7 @@
                         <input type="text" name="username" id="username" placeholder="Nhập tên đăng nhập">
                     <p>Mật khẩu</p>
                     <input type="password" name="passowrd" id="password" placeholder="Nhập tên mật khẩu">
-                    <label for="" class="hidden" id="notification" runat="server">test</label>
+                    <label class="hidden" id="notification" runat="server">test</label>
                 </div>
                 <input type="submit" value="Đăng nhập" class="button" onclick="clickLogin(event);">
             </form>                

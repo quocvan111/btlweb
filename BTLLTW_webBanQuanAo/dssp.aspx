@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style/base.css">
-    <link rel="stylesheet" href="style/styleIndex.css">
+    <link rel="stylesheet" href="style/styleindex.css">
     <link rel="stylesheet" href="style/styleList.css">
 </head>
 
@@ -28,7 +28,7 @@
                     <option value="sports">Đồ thể thao</option>
                 </select>
             </div>
-            <div class ="content col-9" id="hienoday" runat="server" style=" display: flex; flex-wrap: wrap;gap: 20px;">
+            <div class ="content col-9" id="hienoday" runat="server" >
 
             </div>
         </div>

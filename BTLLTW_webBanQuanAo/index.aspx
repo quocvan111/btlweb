@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style/base.css">
-    <link rel="stylesheet" href="style/styleIndex.css">
+    <link rel="stylesheet" href="style/styleindex.css">
 </head>
 
 <body>
